@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cardápio de pizzaria">
+  <title>Pizza | Cardápio</title>
+  <link rel="stylesheet" href="./style.min.css">
+  <link rel="shortcut icon" href="./images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="models">
+    <div class="pizza-item">
+      <div class="pizza-item--img"><img src="" width="302" height="302" alt="Pizza images"/></div>
+      <div class="pizza-item--name-container">
+        <p class="pizza-item--name"></p>
+      </div>
+
+
+      <div class="pizza-item--sizes">
+        <div class="pizza-item--size-container">
+          <p class="pizza-item--size"></p>
+        </div>
+      </div>
+
+      <div class="pizza-item--price-and-add">
+        <div class="pizza-item--price"></div>
+        <div class="pizza-item--add">
+          <div class="linha"></div>
+          <div class="linha"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pizza-cart">
+      <div class="pizza-cart--img"><img src="" width="186" /></div>
+      <div class="pizza-cart--name-container">
+        <p class="pizza-cart--name"></p>
+      </div>
+
+      <div class="pizza-cart--size-container">
+        <p class="pizza-cart--size"></p>
+      </div>
+
+      <div class="pizza-cart--qtd-price">
+        <div class="pizza-cart--qtd-container">
+          <button class="pizza-cart--qtdmenos">-</button>
+          <div class="pizza-cart--qtd"></div>
+          <button class="pizza-cart--qtdmais">+</button>
+        </div>
+        <div class="pizza-cart--price"></div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="logo"><img src="./images/logo.svg" alt="Logo icon" /></div>
+    <div class="carrinho"><img src="./images/cart.svg" width="40" height="40" alt="Cart icon" /></div>
+  </header>
+  <aside class="menu">
+    <div class="close">
+      <div class="linha"></div>
+      <div class="linha"></div>
+    </div>
+    <div class="pizza-cart-area"></div>
+    <div class="values">
+      <hr>
+      <div class="value-content">
+        <p class="value-title">Subtotal</p>
+        <p id="subtotal-value" class="value-price">R$ 0.00</p>
+      </div>
+      <div class="value-content">
+        <p class="value-title">Frete</p>
+        <p id="frete-value" class="value-price">R$ 0.00</p>
+      </div>
+      <div class="value-content">
+        <p class="value-title">Total</p>
+        <p id="total-value" class="value-price">R$ 0.00</p>
+      </div>
+    </div>
+  </aside>
+  <main>
+    <div class="title">CARDÁPIO</div>
+    <div class="pizza-area"></div>
+  </main>
+
+  <footer>
+    <div class="dev">Desenvolvido por <a href="https://github.com/luiz-feliph" target="_blank" rel="noreferrer">Luiz Felipe</a></div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

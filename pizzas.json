@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "Mediterrânea",
+    "img": "images/pizza1.webp",
+    "price": [40, 60, 80],
+    "sizes": ["P", "M", "G"]
+  },
+  {
+    "id": 1,
+    "name": "Fungi Freschi",
+    "img": "images/pizza2.webp",
+    "price": [40, 60, 80],
+    "sizes": ["P", "M", "G"]
+  },
+  {
+    "id": 2,
+    "name": "Rúcula e Grana",
+    "img": "images/pizza3.webp",
+    "price": [40, 60, 80],
+    "sizes": ["P", "M", "G"]
+  },
+  {
+    "id": 3,
+    "name": "Salame Piccante",
+    "img": "images/pizza4.webp",
+    "price": [40, 60, 80],
+    "sizes": ["P", "M", "G"]
+  },
+  {
+    "id": 4,
+    "name": "Parmiggiana",
+    "img": "images/pizza5.webp",
+    "price": [40, 60, 80],
+    "sizes": ["P", "M", "G"]
+  },
+  {
+    "id": 5,
+    "name": "Margherita Búfala",
+    "img": "images/pizza2.webp",
+    "price": [40, 60, 80],
+    "sizes": ["P", "M", "G"]
+  }
+]
