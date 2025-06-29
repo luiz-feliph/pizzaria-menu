@@ -22,7 +22,7 @@ Currently, only the full site design has been completed.
 
 ## 🔥 Demo
 
-[🔗 Check the project online](https://seu-portfolio.vercel.app)  
+[🔗 Check the project online](https://pizzaria-menu.vercel.app/)  
 
 ## 📋 Features
 

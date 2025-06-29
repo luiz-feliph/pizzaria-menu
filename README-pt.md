@@ -23,7 +23,7 @@ Atualmente, apenas o design completo do site foi finalizado.
 
 ## 🔥 Demonstração
 
-[🔗 Veja o projeto online](https://seu-portfolio.vercel.app)  
+[🔗 Veja o projeto online](https://pizzaria-menu.vercel.app/)  
 
 ## 📋 Funcionalidades
 
