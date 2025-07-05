@@ -44,5 +44,5 @@ Atualmente, apenas o design completo do site foi finalizado.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/cardapio-pizzaria.git
-   cd cardapio-pizzaria
+   git clone https://github.com/luiz-feliph/pizzaria-menu
+   cd pizzaria-menu
